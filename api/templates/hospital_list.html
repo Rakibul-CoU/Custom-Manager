@@ -1,0 +1,18 @@
+<body>
+
+    <div class="table">
+        <table>
+            <tr>
+                <th>Hospital Name</th>
+                <th>City</th>
+            </tr>
+            {% for hospital in hospitals %}
+            <tr>
+                <td>{{ hospital.name }}</td>
+                <td>{{ hospital.city }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+</body>
